@@ -1,0 +1,8 @@
+<ngx-codemirror
+  #codemirror
+  [options]="codeMirrorOptions"
+  [(ngModel)]="query"
+  [autoFocus]="true"
+  (ngModelChange)="setEditorContent($event)"
+>
+</ngx-codemirror>
